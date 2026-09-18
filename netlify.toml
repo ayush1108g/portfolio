@@ -2,6 +2,11 @@
   command = "npm run build"
   publish = "out"
 
+[[redirects]]
+  from = "/portfolio/Ayush_Gupta_Resume.pdf"
+  to = "/Ayush_Gupta_Resume.pdf"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
